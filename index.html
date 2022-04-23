@@ -1,41 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/styles/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
     <title>Jogo da memoria</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="tela-inicial">
-        <h4>Nome do jogador</h4>
-        <input type="text" class="txt-input">
-        <input type="button" value="Play" class="btn-inicial" onclick="play()">
-        <input type="button" value="About" class="btn-inicial">
+      <h4>Nome do jogador</h4>
+      <input type="text" class="txt-input" />
+      <input
+        type="button"
+        value="Play"
+        class="btn-inicial"
+        onclick="play()"
+      />
+      <a
+        href="https://github.com/douglasmonteirodev/jogo-da-memoria"
+        target="_blank"
+      >
+        <input type="button" value="About" class="btn-inicial"
+      /></a>
     </div>
 
     <div id="countdown">
-        <h2 id="warning"></h2>
+      <h2 id="warning"></h2>
     </div>
     <div class="timer-container">
-        <h3>Timer</h3>
-        <div id="timer"></div>
+      <h3>Timer</h3>
+      <div id="timer"></div>
     </div>
-    <div id="gameBoard">
-    </div>
+    <div id="gameBoard"></div>
 
-    <div id="gameOver">
-
-    </div>
-
+    <div id="gameOver"></div>
 
     <script src="./assets/script/game.js"></script>
     <script src="./assets/script/improvements.js"></script>
     <script src="./assets/script/script.js"></script>
-</body>
-
+  </body>
 </html>
