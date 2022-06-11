@@ -2,7 +2,7 @@
 
 ## Projeto usando javascript
 
-## GitPage: https://douglasmonteirodev.github.io/praticando-javascript/main
+## GitPage: https://douglasmonteirodev.github.io/jogo-da-memoria/
 
 ## Informações
 
