@@ -2,6 +2,10 @@
 
 ## Projeto usando javascript
 
+<p align="center">
+      <img src="assets/preview/home_preview.png">
+</p>
+
 ## GitPage: https://douglasmonteirodev.github.io/jogo-da-memoria/
 
 ## Informações
