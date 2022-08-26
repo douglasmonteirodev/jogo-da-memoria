@@ -12,7 +12,7 @@
 
 ### É um jogo da memória simples, que é bastante conhecido.
 
-### <i> PÁGINAS: </i>
+### <i> Infos: </i>
 
 - `Há um campo para a coleta do nome do usuário`
 - `Um timer para contagem do jogo`
